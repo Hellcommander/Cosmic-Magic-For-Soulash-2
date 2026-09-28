@@ -1,0 +1,16 @@
+{
+	"id": "cosmic_magic_meteorite_slam",
+	"name": "Meteorite Slam",
+	"requirements": {
+		"milestones": [],
+		"skill": 12
+	},
+	"rewards": [
+		{
+			"ability": "cosmic_magic_meteorite_slam"
+		}
+	],
+	"skill_id": "arendeth_cosmic_magic",
+	"steps": [],
+	"steps_type": 0
+}

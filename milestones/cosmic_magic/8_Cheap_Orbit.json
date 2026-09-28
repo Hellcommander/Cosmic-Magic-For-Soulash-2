@@ -1,0 +1,16 @@
+{
+	"id": "cosmic_magic_cheap_orbit",
+	"name": "Cheap Orbit",
+	"requirements": {
+		"milestones": [],
+		"skill": 8
+	},
+	"rewards": [
+		{
+			"amplifier": "cosmic_magic_cheap_orbit"
+		}
+	],
+	"skill_id": "arendeth_cosmic_magic",
+	"steps": [],
+	"steps_type": 0
+}

@@ -1,0 +1,16 @@
+{
+	"id": "cosmic_magic_molten_descent",
+	"name": "Molten Descent",
+	"requirements": {
+		"milestones": [],
+		"skill": 5
+	},
+	"rewards": [
+		{
+			"amplifier": "cosmic_magic_molten_descent"
+		}
+	],
+	"skill_id": "arendeth_cosmic_magic",
+	"steps": [],
+	"steps_type": 0
+}

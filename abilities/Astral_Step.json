@@ -1,0 +1,30 @@
+{
+    "id": "cosmic_magic_astral_step",
+    "name": "Astral Step",
+    "description": "Blink up to 3 tiles through folded space, gain 1 Cosmic Charge, and move with astral swiftness.",
+    "target": "tile",
+    "range": 3,
+    "effects": {
+        "stacker_count": 1,
+        "stacker_target": "self",
+        "lunge": 1,
+        "movement_speed": 0.05
+    },
+    "effects_keys": {
+        "stacker": "cosmic_magic_cosmic_charge"
+    },
+    "animation": "cosmic_magic_astral_step_fx",
+    "cost": {
+        "health": 0,
+        "stamina": 6
+    },
+    "cast_time": 0.3,
+    "cooldown": 8.0,
+    "skill": "arendeth_cosmic_magic",
+    "slots": {
+        "offensive": 0,
+        "utility": 2
+    },
+    "duration": 0.0,
+    "image": 3
+}

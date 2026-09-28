@@ -1,0 +1,16 @@
+{
+	"id": "cosmic_magic_charge_spark",
+	"name": "Charge Spark",
+	"requirements": {
+		"milestones": [],
+		"skill": 2
+	},
+	"rewards": [
+		{
+			"amplifier": "cosmic_magic_charge_spark"
+		}
+	],
+	"skill_id": "arendeth_cosmic_magic",
+	"steps": [],
+	"steps_type": 0
+}

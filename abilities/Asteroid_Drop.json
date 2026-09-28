@@ -1,0 +1,36 @@
+{
+    "id": "cosmic_magic_asteroid_drop",
+    "name": "Asteroid Drop",
+    "description": "A delayed asteroid crash. Heavy ::damage ::damage_type impact, knockback, dust-blind aim, and a wide field of Impact Craters.",
+    "target": "aoe_tile",
+    "range": 8,
+    "effects": {
+        "damage": [12, 20],
+        "damage_type": "physical",
+        "summon_count": 16,
+        "aoe_range": 3,
+        "aoe_shape": 1,
+
+        "knockback": 2,
+        "hit_chance": -3,
+
+        "magic_power_damage": 1.2
+    },
+    "effects_keys": {
+        "summon": "cosmic_magic_impact_crater"
+    },
+    "animation": "cosmic_magic_asteroid_drop_fx",
+    "cost": {
+        "health": 0,
+        "stamina": 10
+    },
+    "cast_time": 1.5,
+    "cooldown": 14.0,
+    "skill": "arendeth_cosmic_magic",
+    "slots": {
+        "offensive": 3,
+        "utility": 1
+    },
+    "duration": 0.0,
+    "image": 6
+}

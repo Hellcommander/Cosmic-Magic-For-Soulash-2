@@ -1,0 +1,16 @@
+{
+	"id": "cosmic_magic_gravity_tick",
+	"name": "Gravity Tick",
+	"requirements": {
+		"milestones": [],
+		"skill": 3
+	},
+	"rewards": [
+		{
+			"amplifier": "cosmic_magic_gravity_tick"
+		}
+	],
+	"skill_id": "arendeth_cosmic_magic",
+	"steps": [],
+	"steps_type": 0
+}

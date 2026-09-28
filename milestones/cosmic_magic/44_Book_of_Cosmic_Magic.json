@@ -1,0 +1,16 @@
+{
+	"id": "cosmic_magic_book_of_cosmic_magic",
+	"name": "Book of Cosmic Magic",
+	"requirements": {
+		"milestones": [],
+		"skill": 44
+	},
+	"rewards": [
+		{
+			"recipe": "cosmic_magic_book_of_cosmic_magic"
+		}
+	],
+	"skill_id": "arendeth_cosmic_magic",
+	"steps": [],
+	"steps_type": 0
+}

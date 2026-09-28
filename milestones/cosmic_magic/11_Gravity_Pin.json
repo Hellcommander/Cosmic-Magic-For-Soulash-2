@@ -1,0 +1,16 @@
+{
+	"id": "cosmic_magic_gravity_pin",
+	"name": "Gravity Pin",
+	"requirements": {
+		"milestones": [],
+		"skill": 11
+	},
+	"rewards": [
+		{
+			"ability": "cosmic_magic_gravity_pin"
+		}
+	],
+	"skill_id": "arendeth_cosmic_magic",
+	"steps": [],
+	"steps_type": 0
+}

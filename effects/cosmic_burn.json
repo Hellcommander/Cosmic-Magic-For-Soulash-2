@@ -1,0 +1,13 @@
+{
+  id cosmic_magic_cosmic_burn,
+  name Cosmic Burn,
+  type effect,
+  target enemy,
+  duration 5,
+  max_stacks 6,
+  modifiers {
+    arcane_damage_taken_percent 0.03,
+    fire_damage_taken_percent 0.02
+  },
+  description Astral radiation scorches the target, increasing arcane and fire damage taken.
+}

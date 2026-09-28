@@ -1,0 +1,16 @@
+{
+	"id": "cosmic_magic_meteor_swarm",
+	"name": "Meteor Swarm",
+	"requirements": {
+		"milestones": [],
+		"skill": 32
+	},
+	"rewards": [
+		{
+			"ability": "cosmic_magic_meteor_swarm"
+		}
+	],
+	"skill_id": "arendeth_cosmic_magic",
+	"steps": [],
+	"steps_type": 0
+}

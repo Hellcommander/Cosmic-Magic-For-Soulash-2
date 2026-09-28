@@ -1,0 +1,13 @@
+{
+  "id": "cosmic_magic_astral_disruption",
+  "name": "Astral Disruption",
+  "type": "effect",
+  "target": "enemy",
+  "duration": 6,
+  "max_stacks": 5,
+  "modifiers": {
+    "accuracy_percent": -0.05,
+    "spell_power_percent": -0.03
+  },
+  "description": "Astral interference disrupts the target’s perception and magical control."
+}

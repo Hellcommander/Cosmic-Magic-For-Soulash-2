@@ -1,0 +1,16 @@
+{
+	"id": "cosmic_magic_quick_fall",
+	"name": "Quick Fall",
+	"requirements": {
+		"milestones": [],
+		"skill": 9
+	},
+	"rewards": [
+		{
+			"amplifier": "cosmic_magic_quick_fall"
+		}
+	],
+	"skill_id": "arendeth_cosmic_magic",
+	"steps": [],
+	"steps_type": 0
+}

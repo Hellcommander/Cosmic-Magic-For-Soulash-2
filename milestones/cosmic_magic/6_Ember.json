@@ -1,0 +1,16 @@
+{
+	"id": "cosmic_magic_ember",
+	"name": "Ember",
+	"requirements": {
+		"milestones": [],
+		"skill": 6
+	},
+	"rewards": [
+		{
+			"amplifier": "cosmic_magic_ember"
+		}
+	],
+	"skill_id": "arendeth_cosmic_magic",
+	"steps": [],
+	"steps_type": 0
+}

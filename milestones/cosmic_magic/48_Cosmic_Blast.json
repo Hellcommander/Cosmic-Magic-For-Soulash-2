@@ -1,0 +1,16 @@
+{
+	"id": "cosmic_magic_collapse_of_reality",
+	"name": "Cosmic Blast",
+	"requirements": {
+		"milestones": [],
+		"skill": 48
+	},
+	"rewards": [
+		{
+			"ability": "cosmic_magic_collapse_of_reality"
+		}
+	],
+	"skill_id": "arendeth_cosmic_magic",
+	"steps": [],
+	"steps_type": 0
+}

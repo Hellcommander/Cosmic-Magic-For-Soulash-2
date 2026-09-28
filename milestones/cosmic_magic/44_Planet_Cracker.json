@@ -1,0 +1,16 @@
+{
+	"id": "cosmic_magic_planet_cracker",
+	"name": "Planet Cracker",
+	"requirements": {
+		"milestones": [],
+		"skill": 44
+	},
+	"rewards": [
+		{
+			"ability": "cosmic_magic_planet_cracker"
+		}
+	],
+	"skill_id": "arendeth_cosmic_magic",
+	"steps": [],
+	"steps_type": 0
+}

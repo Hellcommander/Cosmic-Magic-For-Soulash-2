@@ -1,0 +1,16 @@
+{
+	"id": "cosmic_magic_cryo_comet",
+	"name": "Cryo-Comet",
+	"requirements": {
+		"milestones": [],
+		"skill": 29
+	},
+	"rewards": [
+		{
+			"amplifier": "cosmic_magic_cryo_comet"
+		}
+	],
+	"skill_id": "arendeth_cosmic_magic",
+	"steps": [],
+	"steps_type": 0
+}

@@ -1,0 +1,122 @@
+{
+	"animation_origin_self": false,
+	"camera_shake": {
+		"bounces": 0,
+		"duration": 0.0,
+		"power": 0.0
+	},
+	"chain_particles": true,
+	"id": "cosmic_magic_micro_singularity_fx",
+	"ignore_roof": false,
+	"name": "Micro Singularity FX",
+	"particles": [
+		{
+			"color": [
+				[
+					160,
+					90,
+					220,
+					255
+				]
+			],
+			"flags": 1,
+			"life": 50.0,
+			"tile_id": 1120
+		},
+		{
+			"color": [
+				[
+					160,
+					90,
+					220,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1121
+		},
+		{
+			"color": [
+				[
+					160,
+					90,
+					220,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1122
+		},
+		{
+			"color": [
+				[
+					160,
+					90,
+					220,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1123
+		},
+		{
+			"color": [
+				[
+					160,
+					90,
+					220,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1124
+		},
+		{
+			"color": [
+				[
+					160,
+					90,
+					220,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1125
+		},
+		{
+			"color": [
+				[
+					160,
+					90,
+					220,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1126
+		},
+		{
+			"color": [
+				[
+					160,
+					90,
+					220,
+					255
+				]
+			],
+			"flags": 8,
+			"life": 100.0,
+			"tile_id": 1127
+		}
+	],
+	"sound": {
+		"id": "127",
+		"volume": 100
+	}
+}

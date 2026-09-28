@@ -1,0 +1,44 @@
+{
+	"id": "cosmic_magic_impact_crater",
+	"name": "Impact Crater",
+	"description": "A pit smashed by falling stone. Hard to cross.",
+	"components": [
+		"background",
+		"glyph",
+		"health",
+		"minimap_pixel",
+		"name",
+		"position_2d"
+	],
+	"corpse": [],
+	"background": {
+		"color": [
+			44,
+			45,
+			41
+		],
+		"movement_penalty": 0.5,
+		"noise": 2,
+		"noise_intensity": 5
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 3013
+			}
+		],
+		"random_frame_start": false
+	},
+	"health": 1,
+	"minimap_pixel": [
+		56,
+		36,
+		18
+	]
+}

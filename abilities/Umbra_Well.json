@@ -1,0 +1,38 @@
+{
+    "id": "cosmic_magic_event_horizon",
+    "name": "Umbra Well",
+    "description": "A vacuum-cold gravity well. Deals ::damage ::damage_type, blinds aim, crushes movement, distorts coordination, and applies Gravity for ::duration turns.",
+    "target": "aoe_tile",
+    "range": 6,
+    "effects": {
+        "damage": [4, 8],
+        "damage_type": "frost",
+
+        "stacker_count": 2,
+        "aoe_range": 2,
+        "aoe_shape": 1,
+
+        "hit_chance": -3,
+        "movement_speed": -0.04,
+        "dexterity": -2,
+
+        "magic_power_damage": 0.8
+    },
+    "effects_keys": {
+        "stacker": "cosmic_magic_gravity"
+    },
+    "animation": "cosmic_magic_event_horizon_fx",
+    "cost": {
+        "health": 0,
+        "stamina": 10
+    },
+    "cast_time": 1.0,
+    "cooldown": 16.0,
+    "duration": 4.0,
+    "skill": "arendeth_cosmic_magic",
+    "slots": {
+        "offensive": 2,
+        "utility": 2
+    },
+    "image": 7
+}

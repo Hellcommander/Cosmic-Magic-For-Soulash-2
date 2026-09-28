@@ -1,0 +1,13 @@
+{
+  "id": "cosmic_magic_gravity_crush",
+  "name": "Gravity Crush",
+  "type": "effect",
+  "target": "enemy",
+  "duration": 4,
+  "max_stacks": 4,
+  "modifiers": {
+    "movement_percent": -0.10,
+    "armor_percent": -0.05
+  },
+  "description": "A localized gravity well slows and compresses the target."
+}

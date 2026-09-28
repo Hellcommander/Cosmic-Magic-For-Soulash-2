@@ -1,0 +1,16 @@
+{
+	"id": "cosmic_magic_mastery",
+	"name": "Cosmic Magic Mastery",
+	"requirements": {
+		"milestones": [],
+		"skill": 30
+	},
+	"rewards": [
+		{
+			"passive": "cosmic_magic_mastery"
+		}
+	],
+	"skill_id": "arendeth_cosmic_magic",
+	"steps": [],
+	"steps_type": 0
+}

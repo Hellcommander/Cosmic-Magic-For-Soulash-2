@@ -1,0 +1,16 @@
+{
+	"id": "cosmic_magic_shattering_impact",
+	"name": "Shattering Impact",
+	"requirements": {
+		"milestones": [],
+		"skill": 7
+	},
+	"rewards": [
+		{
+			"amplifier": "cosmic_magic_shattering_impact"
+		}
+	],
+	"skill_id": "arendeth_cosmic_magic",
+	"steps": [],
+	"steps_type": 0
+}

@@ -1,0 +1,35 @@
+{
+    "id": "cosmic_magic_collapse_of_reality",
+    "name": "Cosmic Blast",
+    "description": "A blast of void-cold. Deals ::damage ::damage_type, immobilizes, stuns, slows, and wrecks accuracy for ::duration turns.",
+    "target": "aoe_tile",
+    "range": 7,
+    "effects": {
+        "damage": [10, 16],
+        "damage_type": "frost",
+        "aoe_range": 3,
+        "aoe_shape": 1,
+
+        "stun": 1,
+        "immobilize": 1,
+        "hit_chance": -4,
+        "movement_speed": -0.05,
+        "dexterity": -2,
+
+        "magic_power_damage": 1.0
+    },
+    "animation": "cosmic_magic_collapse_fx",
+    "cost": {
+        "health": 0,
+        "stamina": 16
+    },
+    "cast_time": 1.4,
+    "cooldown": 30.0,
+    "duration": 3.0,
+    "skill": "arendeth_cosmic_magic",
+    "slots": {
+        "offensive": 2,
+        "utility": 2
+    },
+    "image": 10
+}

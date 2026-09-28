@@ -1,0 +1,16 @@
+{
+	"id": "cosmic_magic_plasma_wake",
+	"name": "Plasma Wake",
+	"requirements": {
+		"milestones": [],
+		"skill": 14
+	},
+	"rewards": [
+		{
+			"passive": "cosmic_magic_plasma_wake"
+		}
+	],
+	"skill_id": "arendeth_cosmic_magic",
+	"steps": [],
+	"steps_type": 0
+}

@@ -1,0 +1,16 @@
+{
+	"id": "cosmic_magic_kinetic_harvest",
+	"name": "Kinetic Harvest",
+	"requirements": {
+		"milestones": [],
+		"skill": 34
+	},
+	"rewards": [
+		{
+			"passive": "cosmic_magic_kinetic_harvest"
+		}
+	],
+	"skill_id": "arendeth_cosmic_magic",
+	"steps": [],
+	"steps_type": 0
+}

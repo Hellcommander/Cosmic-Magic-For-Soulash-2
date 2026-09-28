@@ -1,0 +1,35 @@
+{
+    "id": "cosmic_magic_meteorite_slam",
+    "name": "Meteorite Slam",
+    "description": "Drop a meteorite. Deals ::damage ::damage_type in the blast, knocks foes back, clouds their aim, and leaves superheated Impact Craters.",
+    "target": "aoe_tile",
+    "range": 7,
+    "effects": {
+        "damage": [7, 13],
+        "damage_type": "physical",
+        "summon_count": 9,
+        "aoe_range": 2,
+        "aoe_shape": 1,
+        "knockback": 1,
+        "hit_chance": -3,
+
+        "magic_power_damage": 1.1
+    },
+    "effects_keys": {
+        "summon": "cosmic_magic_impact_crater"
+    },
+    "animation": "3",
+    "cost": {
+        "health": 0,
+        "stamina": 7
+    },
+    "cast_time": 1.2,
+    "cooldown": 8.0,
+    "skill": "arendeth_cosmic_magic",
+    "slots": {
+        "offensive": 2,
+        "utility": 1
+    },
+    "duration": 0.0,
+    "image": 4
+}

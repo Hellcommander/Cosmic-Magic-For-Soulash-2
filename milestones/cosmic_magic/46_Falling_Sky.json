@@ -1,0 +1,16 @@
+{
+	"id": "cosmic_magic_falling_sky",
+	"name": "Falling Sky",
+	"requirements": {
+		"milestones": [],
+		"skill": 46
+	},
+	"rewards": [
+		{
+			"passive": "cosmic_magic_falling_sky"
+		}
+	],
+	"skill_id": "arendeth_cosmic_magic",
+	"steps": [],
+	"steps_type": 0
+}

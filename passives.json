@@ -1,0 +1,140 @@
+[
+	{
+		"id": "cosmic_magic_mastery",
+		"name": "Cosmic Magic Mastery",
+		"image": 0,
+		"effects": [
+			{
+				"effect": "statistic_percent",
+				"value": "strength",
+				"secondary_value": 0.1
+			},
+			{
+				"effect": "statistic_percent",
+				"value": "dexterity",
+				"secondary_value": 0.1
+			},
+			{
+				"effect": "statistic_percent",
+				"value": "endurance",
+				"secondary_value": 0.1
+			},
+			{
+				"effect": "statistic_percent",
+				"value": "intelligence",
+				"secondary_value": 0.1
+			},
+			{
+				"effect": "statistic_percent",
+				"value": "willpower",
+				"secondary_value": 0.1
+			}
+		]
+	},
+	{
+		"id": "cosmic_magic_plasma_wake",
+		"name": "Plasma Wake",
+		"image": 1,
+		"effects": [
+			{
+				"effect": "on_damage_type_stack",
+				"value": "cosmic_magic_cosmic_charge",
+				"secondary_value": "fire"
+			},
+			{
+				"effect": "heal_on_damage_type",
+				"value": "fire",
+				"secondary_value": 0.2
+			}
+		]
+	},
+	{
+		"id": "cosmic_magic_star_forged_body",
+		"name": "Star-Forged Body",
+		"image": 2,
+		"effects": [
+			{
+				"effect": "on_attack_stack",
+				"value": "cosmic_magic_cosmic_charge"
+			},
+			{
+				"effect": "health_bonus_percent",
+				"value": 0.12
+			},
+			{
+				"effect": "damage_type_reduction",
+				"value": "fire",
+				"secondary_value": 0.2
+			}
+		]
+	},
+	{
+		"id": "cosmic_magic_kinetic_harvest",
+		"name": "Kinetic Harvest",
+		"image": 3,
+		"effects": [
+			{
+				"effect": "on_damage_type_stack",
+				"value": "cosmic_magic_cosmic_charge",
+				"secondary_value": "physical"
+			},
+			{
+				"effect": "stamina_on_stack_consume",
+				"value": "cosmic_magic_cosmic_charge"
+			}
+		]
+	},
+	{
+		"id": "cosmic_magic_gravitational_mastery",
+		"name": "Gravitational Mastery",
+		"image": 4,
+		"effects": [
+			{
+				"effect": "target_resistance",
+				"value": "physical",
+				"secondary_value": -0.15
+			},
+			{
+				"effect": "on_attack_stack",
+				"value": "cosmic_magic_gravity"
+			}
+		]
+	},
+	{
+		"id": "cosmic_magic_falling_sky",
+		"name": "Falling Sky",
+		"image": 5,
+		"effects": [
+			{
+				"effect": "trigger_ability_on_cast",
+				"value": "cosmic_magic_meteor_swarm",
+				"secondary_value": "cosmic_magic_falling_star",
+				"third_value": 0.35
+			}
+		]
+	},
+	{
+		"id": "cosmic_magic_starcaller_pact",
+		"name": "Starcaller Pact",
+		"image": 6,
+		"effects": [
+			{
+				"effect": "on_attack_cast",
+				"value": "cosmic_magic_falling_star",
+				"secondary_value": 1.0
+			}
+		]
+	},
+	{
+		"id": "cosmic_magic_vacuum_skin",
+		"name": "Vacuum Skin",
+		"image": 7,
+		"effects": [
+			{
+				"effect": "damage_negation",
+				"value": "frost",
+				"secondary_value": 0.75
+			}
+		]
+	}
+]

@@ -1,0 +1,16 @@
+{
+	"id": "cosmic_magic_vacuum_skin",
+	"name": "Vacuum Skin",
+	"requirements": {
+		"milestones": [],
+		"skill": 28
+	},
+	"rewards": [
+		{
+			"passive": "cosmic_magic_vacuum_skin"
+		}
+	],
+	"skill_id": "arendeth_cosmic_magic",
+	"steps": [],
+	"steps_type": 0
+}

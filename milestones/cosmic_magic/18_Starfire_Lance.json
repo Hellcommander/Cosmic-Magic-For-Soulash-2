@@ -1,0 +1,16 @@
+{
+	"id": "cosmic_magic_starfire_lance",
+	"name": "Starfire Lance",
+	"requirements": {
+		"milestones": [],
+		"skill": 18
+	},
+	"rewards": [
+		{
+			"ability": "cosmic_magic_starfire_lance"
+		}
+	],
+	"skill_id": "arendeth_cosmic_magic",
+	"steps": [],
+	"steps_type": 0
+}

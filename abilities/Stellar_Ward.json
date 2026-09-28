@@ -1,0 +1,28 @@
+{
+    "id": "cosmic_magic_stellar_ward",
+    "name": "Stellar Ward",
+    "description": "Raise a radiant astral barrier: reduces damage, resists magic, deflects spells, and illuminates the battlefield.",
+    "target": "self",
+    "range": 0,
+    "effects": {
+        "damage_reduce_percent": 0.12,
+        "resistance": 5,
+        "magic_deflection": 1,
+        "light_source": 3
+    },
+    "animation": "cosmic_magic_stellar_ward_fx",
+    "cost": {
+        "health": 0,
+        "stamina": 6
+    },
+    "cast_time": 0.5,
+    "cooldown": 16.0,
+    "duration": 5.0,
+    "skill": "arendeth_cosmic_magic",
+    "slots": {
+        "offensive": 0,
+        "utility": 2,
+        "defensive": 2
+    },
+    "image": 2
+}

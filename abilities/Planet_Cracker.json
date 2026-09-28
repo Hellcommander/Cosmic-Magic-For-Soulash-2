@@ -1,0 +1,37 @@
+{
+    "id": "cosmic_magic_planet_cracker",
+    "name": "Planet Cracker",
+    "description": "A colossal meteor. Massive ::damage ::damage_type, shockwave knockback, accuracy-shattering impact, and Shattered Ground (physical debris damage). Socket Molten Descent for extra burn on the hit.",
+    "target": "aoe_tile",
+    "range": 9,
+    "effects": {
+        "damage": [22, 34],
+        "damage_type": "physical",
+        "magic_power_damage": 1.25,
+        "knockback": 3,
+        "hit_chance": -5,
+
+        "aoe_range": 4,
+        "aoe_shape": 1,
+
+        "summon_count": 20,
+        "summon_target": "tile"
+    },
+    "effects_keys": {
+        "summon": "cosmic_magic_shattered_ground"
+    },
+    "animation": "cosmic_magic_asteroid_drop_fx",
+    "cost": {
+        "health": 0,
+        "stamina": 18
+    },
+    "cast_time": 1.5,
+    "cooldown": 28.0,
+    "skill": "arendeth_cosmic_magic",
+    "slots": {
+        "offensive": 4,
+        "utility": 1
+    },
+    "duration": 0.0,
+    "image": 9
+}

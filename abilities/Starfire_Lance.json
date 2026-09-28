@@ -1,0 +1,31 @@
+{
+    "id": "cosmic_magic_starfire_lance",
+    "name": "Starfire Lance",
+    "description": "A piercing beam of starlight. Deals ::damage ::damage_type damage through a line of foes, burns them, fractures their armor, and leaves them vulnerable to further attacks.",
+    "target": "line",
+    "range": 8,
+    "effects": {
+        "damage": [8, 14],
+        "damage_type": "holy",
+        "pierce": 2,
+        "magic_power_damage": 1.2,
+
+        "burn": 1,
+        "armor_percent": -0.05,
+        "vulnerable": 1
+    },
+    "animation": "cosmic_magic_starfire_lance_fx",
+    "cost": {
+        "health": 0,
+        "stamina": 8
+    },
+    "cast_time": 1.0,
+    "cooldown": 10.0,
+    "skill": "arendeth_cosmic_magic",
+    "slots": {
+        "offensive": 2,
+        "utility": 1
+    },
+    "duration": 0.0,
+    "image": 5
+}

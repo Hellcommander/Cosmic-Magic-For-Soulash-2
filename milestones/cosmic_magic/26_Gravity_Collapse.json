@@ -1,0 +1,16 @@
+{
+	"id": "cosmic_magic_gravity_collapse",
+	"name": "Gravity Collapse",
+	"requirements": {
+		"milestones": [],
+		"skill": 26
+	},
+	"rewards": [
+		{
+			"amplifier": "cosmic_magic_gravity_collapse"
+		}
+	],
+	"skill_id": "arendeth_cosmic_magic",
+	"steps": [],
+	"steps_type": 0
+}

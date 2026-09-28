@@ -1,0 +1,57 @@
+{
+	"camera_shake": {
+		"bounces": 2,
+		"duration": 0.10000000149011612,
+		"power": 1,
+		"type": 1
+	},
+	"chain_particles": true,
+	"id": "cosmic_magic_starfire_lance_fx_hit",
+	"ignore_roof": true,
+	"name": "Starfire Lance FX Hit 63",
+	"particles": [
+		{
+			"color": [
+				[
+					255,
+					120,
+					40,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 20.0,
+			"tile_id": 348
+		},
+		{
+			"color": [
+				[
+					255,
+					120,
+					40,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 20.0,
+			"tile_id": 346
+		},
+		{
+			"color": [
+				[
+					255,
+					120,
+					40,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 20.0,
+			"tile_id": 347
+		}
+	],
+	"sound": {
+		"id": "15",
+		"volume": 100
+	}
+}

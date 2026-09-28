@@ -1,0 +1,13 @@
+{
+  "id": "cosmic_magic_cosmic_charge",
+  "name": "Cosmic Charge",
+  "image": 0,
+  "type": "effect",
+  "target": "self",
+  "duration": 9,
+  "max_stacks": 8,
+  "modifiers": {
+    "damage_bonus_percent": 0.02
+  },
+  "description": "Stellar residue on the caster. +2% damage per stack, up to 8. Lasts 9 turns if not refreshed."
+}

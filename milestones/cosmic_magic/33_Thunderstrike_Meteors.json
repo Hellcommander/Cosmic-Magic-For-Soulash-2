@@ -1,0 +1,16 @@
+{
+	"id": "cosmic_magic_thunderstrike_meteors",
+	"name": "Thunderstrike Meteors",
+	"requirements": {
+		"milestones": [],
+		"skill": 33
+	},
+	"rewards": [
+		{
+			"amplifier": "cosmic_magic_thunderstrike_meteors"
+		}
+	],
+	"skill_id": "arendeth_cosmic_magic",
+	"steps": [],
+	"steps_type": 0
+}

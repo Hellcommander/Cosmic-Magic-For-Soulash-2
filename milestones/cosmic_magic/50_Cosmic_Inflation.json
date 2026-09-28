@@ -1,0 +1,16 @@
+{
+	"id": "cosmic_magic_cosmic_inflation",
+	"name": "Cosmic Inflation",
+	"requirements": {
+		"milestones": [],
+		"skill": 50
+	},
+	"rewards": [
+		{
+			"amplifier": "cosmic_magic_cosmic_inflation"
+		}
+	],
+	"skill_id": "arendeth_cosmic_magic",
+	"steps": [],
+	"steps_type": 0
+}

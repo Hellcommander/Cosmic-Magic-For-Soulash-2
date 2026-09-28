@@ -1,0 +1,16 @@
+{
+	"id": "cosmic_magic_star_forged_body",
+	"name": "Star-Forged Body",
+	"requirements": {
+		"milestones": [],
+		"skill": 24
+	},
+	"rewards": [
+		{
+			"passive": "cosmic_magic_star_forged_body"
+		}
+	],
+	"skill_id": "arendeth_cosmic_magic",
+	"steps": [],
+	"steps_type": 0
+}

@@ -1,0 +1,32 @@
+[
+	{
+		"id": "cosmic_magic_cosmic_charge",
+		"name": "Cosmic Charge",
+		"image": 0,
+		"effects": [
+			{
+				"effect": "damage_bonus_percent",
+				"value": 0.02
+			}
+		],
+		"max_stacks": 8,
+		"apply_caster": true,
+		"duration": 9,
+		"description": "Stellar residue on the caster. +2% damage per stack, up to 8. Lasts 9 turns if not refreshed."
+	},
+	{
+		"id": "cosmic_magic_gravity",
+		"name": "Gravity",
+		"image": 1,
+		"effects": [
+			{
+				"effect": "movement_speed",
+				"value": 0.025
+			}
+		],
+		"max_stacks": 8,
+		"apply_caster": false,
+		"duration": 4,
+		"description": "Warped gravity slows movement by 0.025 turn per stack, up to 8. Lasts 4 turns if not refreshed."
+	}
+]
