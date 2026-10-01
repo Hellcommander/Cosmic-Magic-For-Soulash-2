@@ -1,0 +1,72 @@
+{
+  "conversations": [
+    {
+      "answer_negative": "Your presence disturbs the stellar alignment. Step away from the locus.",
+      "answer_positive": "The stars shift subtly… you may approach the convergence.",
+      "entities": [
+        "arendeth_cosmic_magic_Cosmic_Savant",
+        "arendeth_cosmic_magic_Starbound_Theorist",
+        "arendeth_cosmic_magic_Astral_Observer"
+      ],
+      "id": "cosmic_begin",
+      "options": [
+        "cosmic_directions",
+        "cosmic_ask_trainer",
+        "cosmic_hire",
+        "cosmic_train",
+        "core_2_marry_1",
+        "core_2_marry_2",
+        "cosmic_exit"
+      ],
+      "text": "",
+      "type": "begin_conversation"
+    },
+    {
+      "id": "cosmic_exit",
+      "text": "May the constellations guide your path.",
+      "type": "exit"
+    },
+    {
+      "id": "cosmic_back",
+      "text": "(return to the stellar discourse)",
+      "type": "back_to_main"
+    },
+    {
+      "answer_negative": "Your astral pattern is unstable. I cannot refine your resonance.",
+      "answer_positive": "Seeking deeper communion with cosmic forces?",
+      "id": "cosmic_train",
+      "options": [
+        "cosmic_back"
+      ],
+      "text": "Ask for training.",
+      "type": "train"
+    },
+    {
+      "answer_positive": "A companion? I can attune one to orbit your presence.",
+      "id": "cosmic_hire",
+      "options": [
+        "cosmic_back"
+      ],
+      "text": "Hire to party.",
+      "type": "hire_to_party"
+    },
+    {
+      "answer_positive": "Where do you wish the astral currents to carry you?",
+      "id": "cosmic_directions",
+      "options": [
+        "cosmic_back"
+      ],
+      "text": "Ask for directions.",
+      "type": "directions"
+    },
+    {
+      "answer_positive": "Which practitioner do you seek? Several here study celestial mechanics.",
+      "id": "cosmic_ask_trainer",
+      "options": [
+        "cosmic_back"
+      ],
+      "text": "Ask for trainers in town.",
+      "type": "ask_trainers"
+    }
+  ]
+}
