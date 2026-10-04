@@ -42,29 +42,38 @@
 				"secondary_value": "fire"
 			},
 			{
+				"effect": "burn_on_damage_type",
+				"value": "fire",
+				"secondary_value": 0.1
+			},
+			{
 				"effect": "heal_on_damage_type",
 				"value": "fire",
-				"secondary_value": 0.2
+				"secondary_value": 0.15
 			}
 		]
 	},
 	{
 		"id": "cosmic_magic_star_forged_body",
-		"name": "Star-Forged Body",
+		"name": "Star‑Forged Body",
 		"image": 2,
 		"effects": [
+			{
+				"effect": "health_bonus_percent",
+				"value": 0.15
+			},
+			{
+				"effect": "armor_percent",
+				"value": 0.12
+			},
 			{
 				"effect": "on_attack_stack",
 				"value": "cosmic_magic_cosmic_charge"
 			},
 			{
-				"effect": "health_bonus_percent",
-				"value": 0.12
-			},
-			{
 				"effect": "damage_type_reduction",
 				"value": "fire",
-				"secondary_value": 0.2
+				"secondary_value": 0.25
 			}
 		]
 	},
@@ -81,6 +90,10 @@
 			{
 				"effect": "stamina_on_stack_consume",
 				"value": "cosmic_magic_cosmic_charge"
+			},
+			{
+				"effect": "ability_damage_multiplier",
+				"value": 0.05
 			}
 		]
 	},
@@ -97,6 +110,10 @@
 			{
 				"effect": "on_attack_stack",
 				"value": "cosmic_magic_gravity"
+			},
+			{
+				"effect": "movement_percent",
+				"value": -0.10
 			}
 		]
 	},
@@ -110,6 +127,10 @@
 				"value": "cosmic_magic_meteor_swarm",
 				"secondary_value": "cosmic_magic_falling_star",
 				"third_value": 0.35
+			},
+			{
+				"effect": "ability_damage_multiplier",
+				"value": 0.08
 			}
 		]
 	},
@@ -122,19 +143,39 @@
 				"effect": "on_attack_cast",
 				"value": "cosmic_magic_falling_star",
 				"secondary_value": 1.0
+			},
+			{
+				"effect": "ability_extend_duration",
+				"value": 1.0
 			}
 		]
-	},
+	},	
 	{
-		"id": "cosmic_magic_vacuum_skin",
-		"name": "Vacuum Skin",
+		"id": "cosmic_magic_space_adapted",
+		"name": "Space‑Adapted",
 		"image": 7,
 		"effects": [
 			{
 				"effect": "damage_negation",
 				"value": "frost",
 				"secondary_value": 0.75
+			},
+			{
+				"effect": "damage_type_reduction",
+				"value": "holy",
+				"secondary_value": 0.15
+			},
+			{
+				"effect": "damage_type_reduction",
+				"value": "electric",
+				"secondary_value": 0.15
+			},
+			{
+				"effect": "fall_damage",
+				"value": 0
 			}
-		]
+		],
+		"description": "Your body has adapted to the void, reducing the harm of extreme cold, stellar radiation, and plasma discharge. You take no fall damage."
 	}
+	
 ]

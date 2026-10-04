@@ -1,72 +1,136 @@
 {
   "conversations": [
     {
-      "answer_negative": "Your presence disturbs the stellar alignment. Step away from the locus.",
-      "answer_positive": "The stars shift subtly… you may approach the convergence.",
+      "id": "astral_begin",
+      "type": "begin_conversation",
       "entities": [
-        "arendeth_cosmic_magic_Cosmic_Savant",
-        "arendeth_cosmic_magic_Starbound_Theorist",
-        "arendeth_cosmic_magic_Astral_Observer"
+        "arendeth_astral_magic_Astral_Savant",
+        "arendeth_astral_magic_Undead_Astral_Adapt",
+        "arendeth_astral_magic_Astral_Adapt_Rogue"
       ],
-      "id": "cosmic_begin",
+      "text": "Greetings.",
+      "answer_positive": "What do you need?",
+      "answer_negative": "Now is not a good time.",
       "options": [
-        "cosmic_directions",
-        "cosmic_ask_trainer",
-        "cosmic_hire",
-        "cosmic_train",
-        "core_2_marry_1",
-        "core_2_marry_2",
-        "cosmic_exit"
-      ],
-      "text": "",
-      "type": "begin_conversation"
+        "astral_trade",
+        "astral_train",
+        "astral_order",
+        "astral_directions",
+        "astral_company_order",
+        "astral_ask_trainer",
+        "astral_special_locations",
+        "astral_rumour",
+        "astral_hire",
+        "astral_back",
+        "astral_exit"
+      ]
     },
+
     {
-      "id": "cosmic_exit",
-      "text": "May the constellations guide your path.",
-      "type": "exit"
-    },
-    {
-      "id": "cosmic_back",
-      "text": "(return to the stellar discourse)",
-      "type": "back_to_main"
-    },
-    {
-      "answer_negative": "Your astral pattern is unstable. I cannot refine your resonance.",
-      "answer_positive": "Seeking deeper communion with cosmic forces?",
-      "id": "cosmic_train",
+      "id": "astral_trade",
+      "type": "trade",
+      "text": "Trade goods.",
+      "answer_positive": "I hope everything is to your satisfaction.",
       "options": [
-        "cosmic_back"
-      ],
+        "astral_back"
+      ]
+    },
+
+    {
+      "id": "astral_train",
+      "type": "train",
       "text": "Ask for training.",
-      "type": "train"
-    },
-    {
-      "answer_positive": "A companion? I can attune one to orbit your presence.",
-      "id": "cosmic_hire",
+      "answer_positive": "Well, if you help out and pay for my time, I could teach you a trick or two.",
+      "answer_negative": "I don't think there's anything I can teach you.",
       "options": [
-        "cosmic_back"
-      ],
-      "text": "Hire to party.",
-      "type": "hire_to_party"
+        "astral_back"
+      ]
     },
+
     {
-      "answer_positive": "Where do you wish the astral currents to carry you?",
-      "id": "cosmic_directions",
+      "id": "astral_order",
+      "type": "order",
+      "text": "Order a product.",
+      "answer_positive": "Come back when it's ready.",
       "options": [
-        "cosmic_back"
-      ],
+        "astral_back"
+      ]
+    },
+
+    {
+      "id": "astral_directions",
+      "type": "directions",
       "text": "Ask for directions.",
-      "type": "directions"
-    },
-    {
-      "answer_positive": "Which practitioner do you seek? Several here study celestial mechanics.",
-      "id": "cosmic_ask_trainer",
+      "answer_positive": "Where do you want to go?",
       "options": [
-        "cosmic_back"
-      ],
+        "astral_back"
+      ]
+    },
+
+    {
+      "id": "astral_company_order",
+      "type": "company_order",
+      "text": "Ask for company orders.",
+      "answer_positive": "We are in need of some new equipment.",
+      "answer_negative": "We're geared well enough for now.",
+      "options": [
+        "astral_back"
+      ]
+    },
+
+    {
+      "id": "astral_ask_trainer",
+      "type": "ask_trainers",
       "text": "Ask for trainers in town.",
-      "type": "ask_trainers"
+      "answer_positive": "What are you looking for?",
+      "options": [
+        "astral_back"
+      ]
+    },
+
+    {
+      "id": "astral_special_locations",
+      "type": "special_locations",
+      "text": "Ask for anything interesting nearby.",
+      "answer_positive": "I heard rumours of these places.",
+      "answer_negative": "I haven't heard of any such place.",
+      "options": [
+        "astral_back"
+      ]
+    },
+
+    {
+      "id": "astral_rumour",
+      "type": "rumour",
+      "text": "Ask about rumours.",
+      "answer_positive": "Aye, quite a sight to see indeed. We've recently had an ::event. I heard that ::event_description.",
+      "answer_negative": "Hmm... I don't think so, friend.",
+      "options": [
+        "astral_back"
+      ]
+    },
+
+    {
+      "id": "astral_hire",
+      "type": "hire_to_party",
+      "text": "Hire this companion.",
+      "answer_positive": "I can join you.",
+      "answer_negative": "Not today.",
+      "options": [
+        "astral_back"
+      ]
+    },
+
+    {
+      "id": "astral_back",
+      "type": "back_to_main",
+      "text": "Go back."
+    },
+
+    {
+      "id": "astral_exit",
+      "type": "exit",
+      "text": "Leave."
     }
   ]
 }
