@@ -1,12 +1,13 @@
 {
-	"author": "Arendeth",
-	"description": "Cosmic Magic: meteor payloads (fire, holy, frost, lightning, void-cold), Cosmic Charge, Gravity consume, and a Celestial Collegium.",
-	"game_required": "0.10.0",
-	"icon": "icon.png",
-	"mods_required": [
-		"core_2"
-	],
-	"name": "Cosmic Magic",
-	"version": "1.11.0",
-	"thumbnail": "thumbnail.png"
+    "author": "Arendeth",
+    "description": "Cosmic Magic bends astral force, stellar fire, and void‑cold pressure. Call down meteors, collapse gravity wells, ignite Starfire, and shape celestial stone into craters and shockwaves. Build Cosmic Charge through impact and motion then unleash it in devastating astral bursts.",
+    "game_required": "0.10.0",
+    "icon": "icon.png",
+    "mods_required": [
+        "core_2"
+    ],
+    "mods": [],
+    "name": "Cosmic Magic",
+    "version": "1.11.0",
+    "thumbnail": "thumbnail.png"
 }
