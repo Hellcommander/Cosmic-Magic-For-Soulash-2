@@ -22,7 +22,7 @@
     ],
     "image": 1,
     "description": "Adds 1 tile of knockback, adds vulnerable 1, and increases collision damage by 25%."
-}
+},
 {
     "id": "cosmic_magic_astral_infusion",
     "name": "Astral Infusion",
@@ -39,7 +39,7 @@
     "name": "Unleash Charge",
     "type": "offensive",
     "bonuses": [
-        { "effect": "damage_per_stacks", "value": 2 },
+        { "effect": "damage_per_stacks", "value": "cosmic_magic_cosmic_charge", "secondary_value": 2 },
         { "effect": "repeat_chance", "value": 0.05 }
     ],
     "image": 3,
@@ -102,7 +102,7 @@
     "bonuses": [
         { "effect": "damage_type", "value": "frost" },
         { "effect": "frostbite", "value": 2 },
-        { "effect": "vulnerable", "value": 0.05 }
+        { "effect": "vulnerable", "value": 1 }
     ],
     "image": 7,
     "description": "A void‑cold stone. Frost damage, frostbite, and brittle exposure."
@@ -144,7 +144,7 @@
     ],
     "image": 10,
     "description": "Gravity tears at the target, applying vulnerability per stack and reducing physical resistance."
-}
+},
 {
     "id": "cosmic_magic_cosmic_inflation",
     "name": "Cosmic Inflation",
