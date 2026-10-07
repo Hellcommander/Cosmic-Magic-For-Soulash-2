@@ -5,7 +5,7 @@
   "occupation_image": 74,
 
   "enables": [
-    "cosmic_magic"
+    "arendeth_cosmic_magic"
   ],
 
   "max": 1,
@@ -14,21 +14,21 @@
   "group": "military",
   "allow_player": true,
 
-  "occupation": "457",
+  "occupation": "Celestial_Cartographer",
   "occupation_per_race": {
-    "0": "457",
-    "1": "core_2_Dwarf_Wizard",
-    "2": "core_2_Elf_Wizard",
-    "4": "core_2_Goblin_Wizard",
-    "6": "core_2_Vampire_Wizard",
-    "7": "core_2_Troll_Wizard",
-    "8": "core_2_Orc_Wizard",
-    "10": "core_2_Rasimi_Wizard",
-    "23": "core_2_Reptilion_Wizard",
-    "26": "core_2_Bone_Wraith_Wizard",
-    "31": "core_2_Gnoll_Wizard",
-    "32": "core_2_Mushman_Wizard",
-    "33": "core_2_Ursan_Wizard"
+    "0": "Celestial_Cartographer",
+    "1": "Celestial_Cartographer",
+    "2": "Celestial_Cartographer",
+    "4": "Celestial_Cartographer",
+    "6": "Celestial_Cartographer",
+    "7": "Celestial_Cartographer",
+    "8": "Celestial_Cartographer",
+    "10": "Celestial_Cartographer",
+    "23": "Celestial_Cartographer",
+    "26": "Celestial_Cartographer",
+    "31": "Celestial_Cartographer",
+    "32": "Celestial_Cartographer",
+    "33": "Celestial_Cartographer"
   },
 
   "race": -1,
@@ -59,11 +59,11 @@
     },
     {
       "component": "container",
-      "count": 6
+      "count": 1
     },
     {
       "component": "light_source",
-      "count": 6
+      "count": 2
     },
     {
       "component": "crafting_station",

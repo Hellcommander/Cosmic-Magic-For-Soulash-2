@@ -2,7 +2,9 @@
 	"ability_user": [],
 	"artificial_intelligence": {
 		"allies": [
-			"7"
+			"9",
+			"4",
+			"5"
 		],
 		"allow_production": [
 			"19",
@@ -49,24 +51,8 @@
 		"backpack": [
 			{
 				"chance": 1.0,
-				"id": "100",
-				"name": "Javelin",
-				"stack": 10
-			}
-		],
-		"left_hand": [
-			{
-				"chance": 1.0,
-				"id": "core_2_Ice_Rod",
-				"name": "Ice Rod",
-				"stack": 1
-			}
-		],
-		"right_hand": [
-			{
-				"chance": 1.0,
-				"id": "100",
-				"name": "Javelin",
+				"id": "381",
+				"name": "Crystal Staff",
 				"stack": 1
 			}
 		],
@@ -100,7 +86,7 @@
 		],
 		"random_frame_start": false
 	},
-	"health": 225,
+	"health": 350,
 	"humanoid": {
 		"race": "2"
 	},
@@ -115,7 +101,7 @@
 	},
 	"name": "Celestial Cartographer",
 	"persona": {
-		"occupation": "Celestial Cartographer"
+		"occupation": "Celestial_Cartographer"
 	},
 	"sight": {
 		"ignore_infra_penalty": false,
@@ -126,10 +112,43 @@
 	"skills": {
 		"max_skill": 10,
 		"milestones": [
+			"cosmic_magic_asteroid_drop",
+			"cosmic_magic_astral_infusion",
+			"cosmic_magic_astral_step",
+			"cosmic_magic_book_of_cosmic_magic",
+			"cosmic_magic_collapse_of_reality",
+			"cosmic_magic_cryo_comet",
+			"cosmic_magic_ember",
+			"cosmic_magic_event_horizon",
+			"cosmic_magic_event_tide",
+			"cosmic_magic_falling_sky",
+			"cosmic_magic_falling_star",
+			"cosmic_magic_gravitational_shear",
+			"cosmic_magic_gravity_pin",
+			"cosmic_magic_kinetic_harvest",
+			"cosmic_magic_meteor_swarm",
+			"cosmic_magic_meteorite_slam",
+			"cosmic_magic_molten_descent",
+			"cosmic_magic_plasma_wake",
+			"cosmic_magic_star_forged_body",
+			"cosmic_magic_starfire_lance",
+			"cosmic_magic_stellar_ward",
+			"cosmic_magic_vacuum_skin",
+			"core_2_medusa_shield",
+			"core_2_crown_armor",
+			"core_2_crown_legs",
+			"core_2_emperor_treasury",
+			"core_2_ancient_shield",
+			"core_2_bone_shin_armor",
+			"core_2_diadem",
+			"core_2_bone_shard",
+			"core_2_splinted_armor",
+			"cosmic_magic_unleash_charge"
 		],
 		"min_skill": 10,
 		"skills": [
-			"arendeth_astral_magic"
+			"arendeth_cosmic_magic",
+			"core_2_armorsmith"
 		]
 	},
 	"stamina": {
