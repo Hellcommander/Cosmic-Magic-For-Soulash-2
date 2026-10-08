@@ -1,235 +1,239 @@
 [
-{
-    "id": "cosmic_magic_molten_descent",
-    "name": "Molten Descent",
-    "type": "offensive",
-    "bonuses": [
-        { "effect": "damage_type", "value": "fire" },
-        { "effect": "burn", "value": 2 },
-        { "effect": "increase_effect", "value": "burn", "secondary_value": 0.15 }
-    ],
-    "image": 0,
-    "description": "Converts the ability’s damage type to fire and adds 2 burn."
-},
-{
-    "id": "cosmic_magic_shattering_impact",
-    "name": "Shattering Impact",
-    "type": "offensive",
-    "bonuses": [
-        { "effect": "knockback", "value": 1 },
-        { "effect": "knockback_damage_percent", "value": 0.25 },
-        { "effect": "vulnerable", "value": 1 }
-    ],
-    "image": 1,
-    "description": "Adds 1 tile of knockback, adds vulnerable 1, and increases collision damage by 25%."
-},
-{
-    "id": "cosmic_magic_astral_infusion",
-    "name": "Astral Infusion",
-    "type": "offensive",
-    "bonuses": [
-        { "effect": "damage_type", "value": "holy" },
-        { "effect": "vulnerable", "value": 1 }
-    ],
-    "image": 2,
-    "description": "Converts the ability’s damage type to holy and adds vulnerable 1"
-},
-{
-    "id": "cosmic_magic_unleash_charge",
-    "name": "Unleash Charge",
-    "type": "offensive",
-    "bonuses": [
-        { "effect": "damage_per_stacks", "value": "cosmic_magic_cosmic_charge", "secondary_value": 2 },
-        { "effect": "repeat_chance", "value": 0.05 }
-    ],
-    "image": 3,
-    "description": "Release stored momentum. Gain +2 damage per Cosmic Charge and a small repeat chance."
-},
-{
-    "id": "cosmic_magic_gravity_collapse",
-    "name": "Gravity Collapse",
-    "type": "utility",
-    "bonuses": [
-        {
-            "effect": "effect_per_stack",
-            "value": "cosmic_magic_gravity",
-            "secondary_value": "stun",
-            "third_value": 0.05
-        },
-        { "effect": "slow", "value": 0.05 }
-    ],
-    "image": 4,
-    "description": "Gravity implodes around the target, stunning per stack and briefly slowing movement."
-},
-{
-    "id": "cosmic_magic_cryo_comet",
-    "name": "Cryo‑Comet",
-    "type": "offensive",
-    "bonuses": [
-        { "effect": "damage_type", "value": "frost" },
-        { "effect": "stacker", "value": "core_2_freeze", "secondary_value": 1 },
-        { "effect": "frostbite", "value": 1 }
-    ],
-    "image": 5,
-    "description": "Converts the ability’s damage type to frost, applies frostbite, and applies 1 Freeze stack."
-},
-{
-    "id": "cosmic_magic_thunderstrike_meteors",
-    "name": "Thunderstrike",
-    "type": "offensive",
-    "bonuses": [
-        {
-            "effect": "damage_type",
-            "value": "electricity"
-        },
-        {
-            "effect": "stun",
-            "value": 1
-        },
-        {
-            "effect": "apply_chance",
-            "value": "cast_ability_on_hit:core_2_overload",
-            "secondary_value": 0.25
-        }
-    ],
-    "image": 6,
-    "description": "Converts the ability’s damage to electricity, applies a stun, and has a 25% chance to cast Overload on hit."
-},
-{
-    "id": "cosmic_magic_voidfall",
-    "name": "Voidfall",
-    "type": "offensive",
-    "bonuses": [
-        { "effect": "damage_type", "value": "frost" },
-        { "effect": "frostbite", "value": 2 },
-        { "effect": "vulnerable", "value": 1 }
-    ],
-    "image": 7,
-    "description": "A void‑cold stone. Frost damage, frostbite, and brittle exposure."
-},
-{
-    "id": "cosmic_magic_orbital_velocity",
-    "name": "Orbital Velocity",
-    "type": "offensive",
-    "bonuses": [
-        { "effect": "distance_damage", "value": 0, "secondary_value": 2 },
-        { "effect": "ability_damage_multiplier", "value": 0.05 }
-    ],
-    "image": 8,
-    "description": "Momentum builds with distance. Add 0–2 damage per tile and a small impact boost."
-},
-{
-    "id": "cosmic_magic_event_tide",
-    "name": "Event Tide",
-    "type": "utility",
-    "bonuses": [
-        { "effect": "stacker", "value": "cosmic_magic_gravity", "secondary_value": 2 },
-        { "effect": "slow", "value": 0.05 }
-    ],
-    "image": 9,
-    "description": "A rising tide of gravity. Apply 2 Gravity stacks and briefly slow the target."
-},
-{
-    "id": "cosmic_magic_gravitational_shear",
-    "name": "Gravitational Shear",
-    "type": "offensive",
-    "bonuses": [
-        {
-            "effect": "effect_per_stack",
-            "value": "cosmic_magic_gravity",
-            "secondary_value": "vulnerable",
-            "third_value": 0.05
-        },
-        { "effect": "target_resistance", "value": "physical", "secondary_value": -0.05 }
-    ],
-    "image": 10,
-    "description": "Gravity tears at the target, applying vulnerability per stack and reducing physical resistance."
-},
-{
-    "id": "cosmic_magic_cosmic_inflation",
-    "name": "Cosmic Inflation",
-    "type": "utility",
-    "bonuses": [
-        { "effect": "aoe_range", "value": 2 },
-        { "effect": "range", "value": 2 },
-        { "effect": "cast_time", "value": 0.1 }
-    ],
-    "image": 11,
-    "description": "Spacetime stretches. +2 area, +2 range, but slightly slower to cast."
-},
-{
-    "id": "cosmic_magic_charge_spark",
-    "name": "Charge Spark",
-    "type": "utility",
-    "bonuses": [
-        { "effect": "stacker_count", "value": 1 },
-        { "effect": "repeat_chance", "value": 0.05 }
-    ],
-    "image": 12,
-    "description": "A spark of momentum. Gain +1 Cosmic Charge and a small repeat chance."
-},
-{
-    "id": "cosmic_magic_gravity_tick",
-    "name": "Gravity Tick",
-    "type": "utility",
-    "bonuses": [
-        { "effect": "stacker", "value": "cosmic_magic_gravity", "secondary_value": 1 },
-        { "effect": "slow", "value": 0.05 }
-    ],
-    "image": 13,
-    "description": "A subtle gravitational tug. Apply 1 Gravity and briefly slow the target."
-},
-{
-    "id": "cosmic_magic_star_reach",
-    "name": "Star Reach",
-    "type": "utility",
-    "bonuses": [
-        { "effect": "range", "value": 1 },
-        { "effect": "ability_damage_multiplier", "value": 0.03 }
-    ],
-    "image": 14,
-    "description": "Drop the stone from farther out. +1 range and a slight impact boost."
-},
-{
-    "id": "cosmic_magic_ember",
-    "name": "Ember",
-    "type": "offensive",
-    "bonuses": [
-        { "effect": "burn", "value": 1 },
-        { "effect": "vulnerable", "value": 1 }
-    ],
-    "image": 15,
-    "description": "A coal of star‑heat. +1 burn and a faint exposure to fire."
-},
-{
-    "id": "cosmic_magic_cheap_orbit",
-    "name": "Cheap Orbit",
-    "type": "utility",
-    "image": 16,
-    "cost_stamina": -1,
-    "cooldown": -0.5,
-    "description": "A shallower orbital path. -1 stamina and slightly reduced cooldown."
-},
-{
-    "id": "cosmic_magic_quick_fall",
-    "name": "Quick Fall",
-    "type": "utility",
-    "bonuses": [
-        { "effect": "cast_time", "value": -0.1 },
-        { "effect": "ability_damage_multiplier", "value": 0.03 }
-    ],
-    "image": 17,
-    "description": "The meteor arrives sooner, striking slightly harder."
-},
-{
-    "id": "cosmic_magic_short_arc",
-    "name": "Short Arc",
-    "type": "offensive",
-    "bonuses": [
-        { "effect": "distance_damage", "value": 0, "secondary_value": 1 }
-    ],
-    "image": 18,
-    "description": "A tighter descent arc. +0–1 distance damage"
-}
-
+	{
+		"id": "cosmic_magic_molten_descent",
+		"name": "Molten Descent",
+		"type": "offensive",
+		"bonuses": [
+			{ "effect": "damage_type", "value": "fire" },
+			{ "effect": "burn", "value": 2 },
+			{ "effect": "increase_effect", "value": "burn", "secondary_value": 0.15 }
+		],
+		"image": 0,
+		"description": "Converts the ability’s damage type to fire and adds 2 burn."
+	},
+	{
+		"id": "cosmic_magic_shattering_impact",
+		"name": "Shattering Impact",
+		"type": "offensive",
+		"bonuses": [
+			{ "effect": "knockback", "value": 1 },
+			{ "effect": "knockback_damage_percent", "value": 0.25 },
+			{ "effect": "vulnerable", "value": 1 }
+		],
+		"image": 1,
+		"description": "Adds 1 tile of knockback, adds vulnerable 1, and increases collision damage by 25%."
+	},
+	{
+		"id": "cosmic_magic_astral_infusion",
+		"name": "Astral Infusion",
+		"type": "offensive",
+		"bonuses": [
+			{ "effect": "damage_type", "value": "holy" },
+			{ "effect": "vulnerable", "value": 1 }
+		],
+		"image": 2,
+		"description": "Converts the ability’s damage type to holy and adds vulnerable 1"
+	},
+	{
+		"id": "cosmic_magic_unleash_charge",
+		"name": "Unleash Charge",
+		"type": "offensive",
+		"bonuses": [
+			{ 
+				"effect": "damage_per_stacks",
+				"value": 2,
+				"secondary_value": "cosmic_magic_cosmic_charge"
+			},
+			{ "effect": "repeat_chance", "value": 0.05 }
+		],
+		"image": 3,
+		"description": "Release stored momentum. Gain +2 damage per Cosmic Charge and a small repeat chance."
+	},
+	{
+		"id": "cosmic_magic_gravity_collapse",
+		"name": "Gravity Collapse",
+		"type": "utility",
+		"bonuses": [
+			{
+				"effect": "effect_per_stack",
+				"value": "cosmic_magic_gravity",
+				"secondary_value": "stun",
+				"third_value": 0.05
+			},
+			{ "effect": "slow", "value": 0.05 }
+		],
+		"image": 4,
+		"description": "Gravity implodes around the target, stunning per stack and briefly slowing movement."
+	},
+	{
+		"id": "cosmic_magic_cryo_comet",
+		"name": "Cryo‑Comet",
+		"type": "offensive",
+		"bonuses": [
+			{ "effect": "damage_type", "value": "frost" },
+			{ "effect": "stacker", "value": "core_2_freeze", "secondary_value": 1 },
+			{ "effect": "frostbite", "value": 1 }
+		],
+		"image": 5,
+		"description": "Converts the ability’s damage type to frost, applies frostbite, and applies 1 Freeze stack."
+	},
+	{
+		"id": "cosmic_magic_thunderstrike_meteors",
+		"name": "Thunderstrike",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "damage_type",
+				"value": "electricity"
+			},
+			{
+				"effect": "stun",
+				"value": 1
+			},
+			{
+				"effect": "apply_chance",
+				"value": "cast_ability_on_hit:core_2_overload",
+				"secondary_value": 0.25
+			}
+		],
+		"image": 6,
+		"description": "Converts the ability’s damage to electricity, applies a stun, and has a 25% chance to cast Overload on hit."
+	},
+	{
+		"id": "cosmic_magic_voidfall",
+		"name": "Voidfall",
+		"type": "offensive",
+		"bonuses": [
+			{ "effect": "damage_type", "value": "frost" },
+			{ "effect": "frostbite", "value": 2 },
+			{ "effect": "vulnerable", "value": 1 }
+		],
+		"image": 7,
+		"description": "A void‑cold stone. Frost damage, frostbite, and brittle exposure."
+	},
+	{
+		"id": "cosmic_magic_orbital_velocity",
+		"name": "Orbital Velocity",
+		"type": "offensive",
+		"bonuses": [
+			{ "effect": "distance_damage", "value": 0, "secondary_value": 2 },
+			{ "effect": "ability_damage_multiplier", "value": 0.05 }
+		],
+		"image": 8,
+		"description": "Momentum builds with distance. Add 0–2 damage per tile and a small impact boost."
+	},
+	{
+		"id": "cosmic_magic_event_tide",
+		"name": "Event Tide",
+		"type": "utility",
+		"bonuses": [
+			{ "effect": "stacker", "value": "cosmic_magic_gravity", "secondary_value": 2 },
+			{ "effect": "slow", "value": 0.05 }
+		],
+		"image": 9,
+		"description": "A rising tide of gravity. Apply 2 Gravity stacks and briefly slow the target."
+	},
+	{
+		"id": "cosmic_magic_gravitational_shear",
+		"name": "Gravitational Shear",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "effect_per_stack",
+				"value": "cosmic_magic_gravity",
+				"secondary_value": "vulnerable",
+				"third_value": 0.05
+			},
+			{ "effect": "target_resistance", "value": "physical", "secondary_value": -0.05 }
+		],
+		"image": 10,
+		"description": "Gravity tears at the target, applying vulnerability per stack and reducing physical resistance."
+	},
+	{
+		"id": "cosmic_magic_cosmic_inflation",
+		"name": "Cosmic Inflation",
+		"type": "utility",
+		"bonuses": [
+			{ "effect": "aoe_range", "value": 2 },
+			{ "effect": "range", "value": 2 },
+			{ "effect": "cast_time", "value": 0.1 }
+		],
+		"image": 11,
+		"description": "Spacetime stretches. +2 area, +2 range, but slightly slower to cast."
+	},
+	{
+		"id": "cosmic_magic_charge_spark",
+		"name": "Charge Spark",
+		"type": "utility",
+		"bonuses": [
+			{ "effect": "stacker_count", "value": 1 },
+			{ "effect": "repeat_chance", "value": 0.05 }
+		],
+		"image": 12,
+		"description": "A spark of momentum. Gain +1 Cosmic Charge and a small repeat chance."
+	},
+	{
+		"id": "cosmic_magic_gravity_tick",
+		"name": "Gravity Tick",
+		"type": "utility",
+		"bonuses": [
+			{ "effect": "stacker", "value": "cosmic_magic_gravity", "secondary_value": 1 },
+			{ "effect": "slow", "value": 0.05 }
+		],
+		"image": 13,
+		"description": "A subtle gravitational tug. Apply 1 Gravity and briefly slow the target."
+	},
+	{
+		"id": "cosmic_magic_star_reach",
+		"name": "Star Reach",
+		"type": "utility",
+		"bonuses": [
+			{ "effect": "range", "value": 1 },
+			{ "effect": "ability_damage_multiplier", "value": 0.03 }
+		],
+		"image": 14,
+		"description": "Drop the stone from farther out. +1 range and a slight impact boost."
+	},
+	{
+		"id": "cosmic_magic_ember",
+		"name": "Ember",
+		"type": "offensive",
+		"bonuses": [
+			{ "effect": "burn", "value": 1 },
+			{ "effect": "vulnerable", "value": 1 }
+		],
+		"image": 15,
+		"description": "A coal of star‑heat. +1 burn and a faint exposure to fire."
+	},
+	{
+		"id": "cosmic_magic_cheap_orbit",
+		"name": "Cheap Orbit",
+		"type": "utility",
+		"image": 16,
+		"cost_stamina": -1,
+		"cooldown": -0.5,
+		"description": "A shallower orbital path. -1 stamina and slightly reduced cooldown."
+	},
+	{
+		"id": "cosmic_magic_quick_fall",
+		"name": "Quick Fall",
+		"type": "utility",
+		"bonuses": [
+			{ "effect": "cast_time", "value": -0.1 },
+			{ "effect": "ability_damage_multiplier", "value": 0.03 }
+		],
+		"image": 17,
+		"description": "The meteor arrives sooner, striking slightly harder."
+	},
+	{
+		"id": "cosmic_magic_short_arc",
+		"name": "Short Arc",
+		"type": "offensive",
+		"bonuses": [
+			{ "effect": "distance_damage", "value": 0, "secondary_value": 1 }
+		],
+		"image": 18,
+		"description": "A tighter descent arc. +0–1 distance damage"
+	}
+	
 ]

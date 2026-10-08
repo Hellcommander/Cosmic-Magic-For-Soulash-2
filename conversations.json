@@ -4,7 +4,7 @@
       "id": "cosmic_magic_begin",
       "type": "begin_conversation",
       "entities": [
-        "arendeth_astral_magic_Celestial_Cartographer",
+        "arendeth_astral_magic_Celestial_Cartographer"
       ],
       "text": "Greetings.",
       "answer_positive": "What do you need?",
