@@ -3,73 +3,13 @@
   "name": "Celestial Collegium",
   "image": 39,
   "occupation_image": 74,
-
-  "enables": [
-    "arendeth_cosmic_magic"
-  ],
-
   "max": 1,
   "tier": 3,
   "type": "military",
   "group": "military",
   "allow_player": true,
-
   "occupation": "Celestial_Cartographer",
-  "occupation_per_race": {
-    "0": "Celestial_Cartographer",
-    "1": "Celestial_Cartographer",
-    "2": "Celestial_Cartographer",
-    "4": "Celestial_Cartographer",
-    "6": "Celestial_Cartographer",
-    "7": "Celestial_Cartographer",
-    "8": "Celestial_Cartographer",
-    "10": "Celestial_Cartographer",
-    "23": "Celestial_Cartographer",
-    "26": "Celestial_Cartographer",
-    "31": "Celestial_Cartographer",
-    "32": "Celestial_Cartographer",
-    "33": "Celestial_Cartographer"
-  },
-
-  "race": -1,
-
+  "race": "-1",
   "workers": [1, 6],
-
-  "produces": [
-    {
-      "takes": "craftable",
-      "entities": [
-        { "id": "2006", "daily": 0.2 }
-      ]
-    }
-  ],
-
-  "required_entities": [
-    {
-      "entities": ["731"],
-      "count": 4
-    },
-    {
-      "entities": ["291", "537"],
-      "count": 4
-    },
-    {
-      "component": "resting_place",
-      "count": 6
-    },
-    {
-      "component": "container",
-      "count": 1
-    },
-    {
-      "component": "light_source",
-      "count": 2
-    },
-    {
-      "component": "crafting_station",
-      "count": 2
-    }
-  ],
-
   "min_area": 45
 }
