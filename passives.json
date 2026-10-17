@@ -29,7 +29,8 @@
 				"value": "willpower",
 				"secondary_value": 0.1
 			}
-		]
+		],
+		"description": "+10% to all attributes. Stacks with other combat-branch masteries."
 	},
 	{
 		"id": "cosmic_magic_plasma_wake",
@@ -51,11 +52,12 @@
 				"value": "fire",
 				"secondary_value": 0.15
 			}
-		]
+		],
+		"description": "Your fire damage applies a stack of Cosmic Charge. Your fire damage can set targets burning (10%). Heal for 15% of fire damage you take."
 	},
 	{
 		"id": "cosmic_magic_star_forged_body",
-		"name": "Star‑Forged Body",
+		"name": "Star-Forged Body",
 		"image": 2,
 		"effects": [
 			{
@@ -75,7 +77,8 @@
 				"value": "fire",
 				"secondary_value": 0.25
 			}
-		]
+		],
+		"description": "+15% health. +12% armor. Your attacks apply a stack of Cosmic Charge. 25% fire resistance."
 	},
 	{
 		"id": "cosmic_magic_kinetic_harvest",
@@ -95,7 +98,8 @@
 				"effect": "ability_damage_multiplier",
 				"value": 0.05
 			}
-		]
+		],
+		"description": "Your physical damage applies a stack of Cosmic Charge. Consuming Cosmic Charge stacks restores 1 stamina each. +5% ability damage."
 	},
 	{
 		"id": "cosmic_magic_gravitational_mastery",
@@ -113,9 +117,10 @@
 			},
 			{
 				"effect": "movement_percent",
-				"value": -0.10
+				"value": -0.1
 			}
-		]
+		],
+		"description": "Enemies resist physical 15% less. Your attacks apply a stack of Gravity. You move 10% faster."
 	},
 	{
 		"id": "cosmic_magic_falling_sky",
@@ -132,7 +137,8 @@
 				"effect": "ability_damage_multiplier",
 				"value": 0.08
 			}
-		]
+		],
+		"description": "Casting Meteor Swarm: Falling Star (35%). +8% ability damage."
 	},
 	{
 		"id": "cosmic_magic_starcaller_pact",
@@ -143,22 +149,19 @@
 				"effect": "on_attack_cast",
 				"value": "cosmic_magic_falling_star",
 				"secondary_value": 1.0
-			},
-			{
-				"effect": "ability_extend_duration",
-				"value": 1.0
 			}
-		]
-	},	
+		],
+		"description": "Your attacks cast Falling Star."
+	},
 	{
 		"id": "cosmic_magic_space_adapted",
-		"name": "Space‑Adapted",
+		"name": "Space-Adapted",
 		"image": 7,
 		"effects": [
 			{
 				"effect": "damage_negation",
 				"value": "frost",
-				"secondary_value": 0.75
+				"secondary_value": 0.5
 			},
 			{
 				"effect": "damage_type_reduction",
@@ -177,5 +180,4 @@
 		],
 		"description": "Your body has adapted to the void, reducing the harm of extreme cold, stellar radiation, and plasma discharge. You take no fall damage."
 	}
-	
 ]

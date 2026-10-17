@@ -9,7 +9,7 @@
 			{ "effect": "increase_effect", "value": "burn", "secondary_value": 0.15 }
 		],
 		"image": 0,
-		"description": "Converts the ability’s damage type to fire and adds 2 burn."
+		"description": "Converts the ability's damage type to fire and adds 2 burn."
 	},
 	{
 		"id": "cosmic_magic_shattering_impact",
@@ -32,7 +32,7 @@
 			{ "effect": "vulnerable", "value": 1 }
 		],
 		"image": 2,
-		"description": "Converts the ability’s damage type to holy and adds vulnerable 1"
+		"description": "Converts the ability's damage type to holy and adds vulnerable 1"
 	},
 	{
 		"id": "cosmic_magic_unleash_charge",
@@ -67,7 +67,7 @@
 	},
 	{
 		"id": "cosmic_magic_cryo_comet",
-		"name": "Cryo‑Comet",
+		"name": "Cryo-Comet",
 		"type": "offensive",
 		"bonuses": [
 			{ "effect": "damage_type", "value": "frost" },
@@ -75,7 +75,7 @@
 			{ "effect": "frostbite", "value": 1 }
 		],
 		"image": 5,
-		"description": "Converts the ability’s damage type to frost, applies frostbite, and applies 1 Freeze stack."
+		"description": "Converts the ability's damage type to frost, applies frostbite, and applies 1 Freeze stack."
 	},
 	{
 		"id": "cosmic_magic_thunderstrike_meteors",
@@ -97,7 +97,7 @@
 			}
 		],
 		"image": 6,
-		"description": "Converts the ability’s damage to electricity, applies a stun, and has a 25% chance to cast Overload on hit."
+		"description": "Converts the ability's damage to electricity, applies a stun, and has a 25% chance to cast Overload on hit."
 	},
 	{
 		"id": "cosmic_magic_voidfall",
@@ -109,7 +109,7 @@
 			{ "effect": "vulnerable", "value": 1 }
 		],
 		"image": 7,
-		"description": "A void‑cold stone. Frost damage, frostbite, and brittle exposure."
+		"description": "A void-cold stone. Frost damage, frostbite, and brittle exposure."
 	},
 	{
 		"id": "cosmic_magic_orbital_velocity",
@@ -120,7 +120,7 @@
 			{ "effect": "ability_damage_multiplier", "value": 0.05 }
 		],
 		"image": 8,
-		"description": "Momentum builds with distance. Add 0–2 damage per tile and a small impact boost."
+		"description": "Momentum builds with distance. Add 0-2 damage per tile and a small impact boost."
 	},
 	{
 		"id": "cosmic_magic_event_tide",
@@ -203,7 +203,7 @@
 			{ "effect": "vulnerable", "value": 1 }
 		],
 		"image": 15,
-		"description": "A coal of star‑heat. +1 burn and a faint exposure to fire."
+		"description": "A coal of star-heat. +1 burn and a faint exposure to fire."
 	},
 	{
 		"id": "cosmic_magic_cheap_orbit",
@@ -233,7 +233,7 @@
 			{ "effect": "distance_damage", "value": 0, "secondary_value": 1 }
 		],
 		"image": 18,
-		"description": "A tighter descent arc. +0–1 distance damage"
+		"description": "A tighter descent arc. +0-1 distance damage"
 	}
 	
 ]

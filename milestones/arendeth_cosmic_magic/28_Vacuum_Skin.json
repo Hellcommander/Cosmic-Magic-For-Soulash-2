@@ -1,13 +1,13 @@
 {
 	"id": "cosmic_magic_vacuum_skin",
-	"name": "Vacuum Skin",
+	"name": "Space-Adapted",
 	"requirements": {
 		"milestones": [],
 		"skill": 28
 	},
 	"rewards": [
 		{
-			"passive": "cosmic_magic_vacuum_skin"
+			"passive": "cosmic_magic_space_adapted"
 		}
 	],
 	"skill_id": "arendeth_cosmic_magic",
