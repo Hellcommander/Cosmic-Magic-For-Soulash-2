@@ -1,7 +1,7 @@
 {
     "id": "cosmic_magic_stellar_ward",
     "name": "Stellar Ward",
-    "description": "Raise a radiant astral barrier: reduces damage, resists magic, deflects spells, and illuminates the battlefield.",
+    "description": "Raise a radiant astral barrier: reduces damage, resists magic, deflects spells, and illuminates the battlefield for ::duration turns.",
     "target": "self",
     "range": 0,
     "effects": {

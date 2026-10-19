@@ -1,7 +1,7 @@
 {
     "id": "cosmic_magic_gravity_pin",
     "name": "Gravity Pin",
-    "description": "Pin a foe in warped gravity. Deals ::damage ::damage_type damage, immobilizes, slows, distorts aim, and applies Gravity stacks.",
+    "description": "Pin a foe in warped gravity. Deals ::damage ::damage_type damage, immobilizes, slows, distorts aim, and applies Gravity stacks for ::duration turns.",
     "target": "actor",
     "range": 4,
     "effects": {
