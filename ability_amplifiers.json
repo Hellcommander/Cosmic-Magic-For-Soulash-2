@@ -60,7 +60,7 @@
 				"secondary_value": "stun",
 				"third_value": 0.05
 			},
-			{ "effect": "slow", "value": 0.05 }
+			{ "effect": "apply_chance", "value": "cast_ability_on_hit:cosmic_magic_gravity_drag", "secondary_value": 1.0 }
 		],
 		"image": 4,
 		"description": "Gravity implodes around the target, stunning per stack and briefly slowing movement."
@@ -92,7 +92,7 @@
 			},
 			{
 				"effect": "apply_chance",
-				"value": "cast_ability_on_hit:core_2_overload",
+				"value": "cast_ability_on_hit:core_2_Overload",
 				"secondary_value": 0.25
 			}
 		],
@@ -128,7 +128,7 @@
 		"type": "utility",
 		"bonuses": [
 			{ "effect": "stacker", "value": "cosmic_magic_gravity", "secondary_value": 2 },
-			{ "effect": "slow", "value": 0.05 }
+			{ "effect": "apply_chance", "value": "cast_ability_on_hit:cosmic_magic_gravity_drag", "secondary_value": 1.0 }
 		],
 		"image": 9,
 		"description": "A rising tide of gravity. Apply 2 Gravity stacks and briefly slow the target."
@@ -178,7 +178,7 @@
 		"type": "utility",
 		"bonuses": [
 			{ "effect": "stacker", "value": "cosmic_magic_gravity", "secondary_value": 1 },
-			{ "effect": "slow", "value": 0.05 }
+			{ "effect": "apply_chance", "value": "cast_ability_on_hit:cosmic_magic_gravity_drag", "secondary_value": 1.0 }
 		],
 		"image": 13,
 		"description": "A subtle gravitational tug. Apply 1 Gravity and briefly slow the target."

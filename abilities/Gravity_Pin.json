@@ -10,7 +10,7 @@
         "magic_power_damage": 0.95,
         "immobilize": 1,
 
-        "movement_speed": -0.03,
+        "movement_speed": 0.03,
         "hit_chance": -3,
 
         "stacker_count": 3,
@@ -19,7 +19,7 @@
     "effects_keys": {
         "stacker": "cosmic_magic_gravity"
     },
-    "animation": "163",
+    "animation": "cosmic_magic_gravity_pin_fx",
     "cost": {
         "health": 0,
         "stamina": 5

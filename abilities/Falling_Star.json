@@ -1,5 +1,5 @@
 {
-  "animation": "38",
+  "animation": "cosmic_magic_cosmic_shrapnel_fx",
   "cast_time": 0.6000000238418579,
   "cooldown": 3.0,
   "cost": {
@@ -10,12 +10,13 @@
   "duration": 0.0,
   "effects": {
     "burn": 1,
-    "damage": [3, 7],
+    "damage": [
+      3,
+      7
+    ],
     "damage_type": "physical",
     "magic_power_damage": 1.0,
     "pierce": 1,
-
-    "stacker": "cosmic_magic_cosmic_charge",
     "stacker_count": 1,
     "stacker_target": "self"
   },
@@ -28,5 +29,8 @@
     "offensive": 2,
     "utility": 2
   },
-  "target": "line_health"
+  "target": "line_health",
+  "effects_keys": {
+    "stacker": "cosmic_magic_cosmic_charge"
+  }
 }

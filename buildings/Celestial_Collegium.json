@@ -21,6 +21,8 @@
 	"tier": 3,
 	"type": "military",
 	"allow_player": true,
+	"min_area": 30,
+	"group": "military",
 	"occupation": "arendeth_cosmic_magic_Celestial_Cartographer",
 	"race": "-1",
 	"workers": [

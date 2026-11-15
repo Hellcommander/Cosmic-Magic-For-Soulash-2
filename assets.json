@@ -58,5 +58,59 @@
 				"file": "assets/items.png"
 			}
 		]
+	},
+	"sounds": {
+		"combat": [
+			{
+				"id": "arendeth_cosmic_magic_asteroid_drop",
+				"name": "Asteroid Drop",
+				"file": "assets/sfx/asteroid_drop.ogg"
+			},
+			{
+				"id": "arendeth_cosmic_magic_astral_step",
+				"name": "Astral Step",
+				"file": "assets/sfx/astral_step.ogg"
+			},
+			{
+				"id": "arendeth_cosmic_magic_cosmic_blast",
+				"name": "Cosmic Blast",
+				"file": "assets/sfx/cosmic_blast.ogg"
+			},
+			{
+				"id": "arendeth_cosmic_magic_falling_star",
+				"name": "Falling Star",
+				"file": "assets/sfx/falling_star.ogg"
+			},
+			{
+				"id": "arendeth_cosmic_magic_gravity_pin",
+				"name": "Gravity Pin",
+				"file": "assets/sfx/gravity_pin.ogg"
+			},
+			{
+				"id": "arendeth_cosmic_magic_meteor_swarm",
+				"name": "Meteor Swarm",
+				"file": "assets/sfx/meteor_swarm.ogg"
+			},
+			{
+				"id": "arendeth_cosmic_magic_meteorite_slam",
+				"name": "Meteorite Slam",
+				"file": "assets/sfx/meteorite_slam.ogg"
+			},
+			{
+				"id": "arendeth_cosmic_magic_starfire_lance",
+				"name": "Starfire Lance",
+				"file": "assets/sfx/starfire_lance.ogg"
+			},
+			{
+				"id": "arendeth_cosmic_magic_stellar_ward",
+				"name": "Stellar Ward",
+				"file": "assets/sfx/stellar_ward.ogg"
+			},
+			{
+				"id": "arendeth_cosmic_magic_umbra_well",
+				"name": "Umbra Well",
+				"file": "assets/sfx/umbra_well.ogg"
+			}
+		]
 	}
 }

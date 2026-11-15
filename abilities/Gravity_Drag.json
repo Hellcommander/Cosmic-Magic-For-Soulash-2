@@ -1,0 +1,20 @@
+{
+    "id": "cosmic_magic_gravity_drag",
+    "name": "Gravity Drag",
+    "description": "Gravity drags at the target, slowing its movement by ::movement_speed turn per step for ::duration turns. Cast by the Gravity Collapse, Event Tide and Gravity Tick amplifiers (needs the Soulash Extender).",
+    "target": "actor",
+    "range": 12,
+    "effects": {
+        "movement_speed": 0.05
+    },
+    "animation": "cosmic_magic_gravity_pin_fx",
+    "cost": {
+        "health": 0,
+        "stamina": 0
+    },
+    "cast_time": 0.0,
+    "cooldown": 0.0,
+    "skill": "arendeth_cosmic_magic",
+    "duration": 2.0,
+    "image": 1
+}

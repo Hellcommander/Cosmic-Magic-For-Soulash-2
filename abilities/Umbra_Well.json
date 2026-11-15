@@ -13,7 +13,7 @@
         "aoe_shape": 1,
 
         "hit_chance": -3,
-        "movement_speed": -0.04,
+        "movement_speed": 0.04,
         "dexterity": -2,
 
         "magic_power_damage": 0.8

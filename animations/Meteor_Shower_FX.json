@@ -15,7 +15,7 @@
 	"random_target": true,
 	"repeat": 10,
 	"sound": {
-		"id": "-1",
+		"id": "arendeth_cosmic_magic_meteor_swarm",
 		"volume": 100
 	}
 }

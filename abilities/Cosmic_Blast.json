@@ -13,7 +13,7 @@
         "stun": 1,
         "immobilize": 1,
         "hit_chance": -4,
-        "movement_speed": -0.05,
+        "movement_speed": 0.05,
         "dexterity": -2,
 
         "magic_power_damage": 1.0
